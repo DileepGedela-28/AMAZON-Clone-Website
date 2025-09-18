@@ -1,0 +1,274 @@
+ /*h1{
+    color:aqua;
+}
+
+p{
+    color:coral;
+}
+
+button{
+    color:cornflowerblue;
+}
+
+body{
+    background-color:saddlebrown;
+}
+
+button{
+    background-color: rgb(194,34,115);
+
+}
+headingOne{
+    color:aquamarine;
+}
+headingTwo{
+    color:bisque;
+}
+
+headingThree{
+    color:brown; 
+}*/
+
+/* #box {
+    background-color: blueviolet;
+    color:antiquewhite;
+}
+/* .heading {
+    color:red;
+} */
+
+h1,h2,h3{
+    color:red;
+}
+
+button{
+    background-color: green;
+}
+  
+p{
+    text-align:right;
+}
+
+/* h1{
+    text-align: right;
+    text-decoration: wavy underline;
+} */
+a{
+    text-decoration: none;
+}
+
+h1{
+    font: normal;
+} */
+
+
+#one{
+    font-size: 35px;
+}
+
+
+
+*{
+    font-family: "Times New Roman";
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;  
+}
+
+#outer{
+    font-size: 35px;
+}
+
+
+
+
+div{
+    /* height:100px;
+    width:100px;
+    background-color: rgba(255, 77, 77, 0.875);
+    border-width: 5px;
+    border-style: dotted;
+ border-color: rgb(0, 255, 47); */
+ border:2px solid chocolate;
+ border-radius: 10%;
+ text-align: center;
+}
+h1{
+    border:3px dotted pink;
+    text-align: center;
+}
+
+
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid brown;
+    border-radius: 25%;
+    padding-left: 20px;
+}
+
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50px;
+}
+
+
+
+*{
+    padding:0;
+    margin:0;
+    color: white;
+}
+
+#navbar {
+    height:60px;
+    background-color: black;
+}
+
+button{
+    background-color: #f08840;
+}
+
+#logo{
+    color:#f08840;
+    font-size: 25px;
+}
+
+a{
+    margin-right: 200px;
+    text-decoration: none;
+}
+
+
+div{
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+h1{
+    text-align: center;
+}
+#box1{
+    background-color: rgba(0, 0, 255, 0.5);
+}
+#box2{
+    background-color: rgba(0, 0, 255, 0.75);
+}
+#box3{
+    background-color: rgba(0, 0, 255, 1);
+}
+#
+
+
+
+.contentBox{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+*{
+    padding:0;
+    margin:0;
+    color: white;
+}
+
+#navbar {
+    height:60px;
+    background-color: black;
+}
+
+button{
+    background-color: #f08840;
+}
+
+#logo{
+    color:#f08840;
+    font-size: 25px;
+}
+
+a{
+    margin-right: 200px;
+    text-decoration: none;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+
+#box1{
+    height: 100px;
+width: 200px;
+background-color: green;
+font-size: 20px;
+}
+#box2{
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    margin-left: 10%;
+    font-size: 2em;
+    width: 5em;
+}
+
+
+div{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+  text-transform:none ;  
+  color: black;
+  background-color: red;
+ 
+}
+li{
+    list-style-type:none;
+    display: inline;
+    
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: darkorchid;
+    align-self: flex-start;
+}
+
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+div{
+    height: 200px;
+    width: 200px;
+    background-color:chocolate;
+
+}
+@media(max-width:300px){
+    div{
+       background-color:green; 
+    }
+}
+@media(min-width:400px) and (max-width:600px){
+    div{
+       background-color:red; 
+    }

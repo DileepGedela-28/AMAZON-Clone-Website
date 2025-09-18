@@ -1,0 +1,63 @@
+.navbar {
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  gap: 20px; /* space between items */
+}
+
+/* Logo */
+.nav-logo {
+  height: 50px;
+  width: 100px;
+  flex-shrink: 0; /* prevent shrinking */
+}
+.logo {
+  background-image: url(amazon_logo.png);
+  background-size: cover;
+  height: 50px;
+  width: 100%;
+}
+
+/* Address */
+.nav-address {
+  flex-shrink: 0; /* keep size fixed */
+}
+
+/* Search Bar */
+.nav-search {
+  display: flex;
+  align-items: center;
+  width: 100%;         /* take all available space */
+  max-width: 620px;    /* keep Amazon style */
+  height: 40px;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-left: 20px;
+}
+.nav-search select {
+  background: #f3f3f3;
+  border: none;
+  width: 50px;
+  text-align: center;
+}
+.nav-search input {
+  flex: 1; /* expand input to fill space */
+  border: none;
+  font-size: 1rem;
+  padding-left: 10px;
+}
+.search-icon {
+  background: #febd69;
+  width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.search-icon i {
+  color: #0f1111;
+  font-size: 1.2rem;
+}
